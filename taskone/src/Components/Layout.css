@@ -1,0 +1,38 @@
+.component {
+  border: 1px solid #ccc;
+  margin: 10px;
+  overflow: auto;
+  /* Ensures the resize handle is visible */
+  resize: both;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top {
+  display: flex;
+  width: 100%;
+}
+.bottom {
+  display: flex;
+  width: 100%;
+}
+
+.componentA {
+  width: 35%;
+  height: 250px;
+  background-color: rgb(135, 135, 255);
+}
+.componentB {
+  width: 65%;
+  height: 250px;
+  background-color: rgb(169, 243, 169);
+}
+.componentC {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(246, 150, 150);
+}
