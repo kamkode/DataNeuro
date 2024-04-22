@@ -10,7 +10,7 @@ const ResizableComponent = ({ componentName, defaultData }) => {
     try {
       const postData = {};
       postData[componentName] = inputValue; // Assign input value to postData
-      await axios.post("http://localhost:5000/api/data/add", postData);
+      await axios.post("https://dataneuro.onrender.com/api/data/add", postData);
       console.log(postData);
     } catch (error) {
       console.error(
